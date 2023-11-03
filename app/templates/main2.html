@@ -1,0 +1,29 @@
+{% extends 'base.html' %}
+{% block title %} Welcome Ridwaanhall {% endblock %}
+
+{% block head %}
+    {{ super() }}
+{% endblock %}
+
+{% block content %}
+    <h1>Welcome Ridwaanhall</h1>
+    <p>Register or login</p>
+    <form action="/action1" method="post">
+        <label>Name</label>
+        <input type="text" name="name" id="">
+        <label>Email Address</label>
+        <input type="email" name="email_address" id="">
+        <label>ID NUmber</label>
+        <input type="number" name="id_number" id="">
+        <label>Password</label>
+        <input type="password" name="password" id="">
+        <input type="submit">
+    </form>
+    <form action="/action1" method="post">
+        <label>Email Address</label>
+        <input type="email" name="email_address" id="">
+        <label>Password</label>
+        <input type="password" name="password" id="">
+        <input type="submit">
+    </form>
+{% endblock %}

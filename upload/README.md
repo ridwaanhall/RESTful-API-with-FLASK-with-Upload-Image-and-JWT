@@ -1,0 +1,1 @@
+this folder where image post located
